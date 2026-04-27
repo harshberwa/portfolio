@@ -48,6 +48,8 @@ function Hero() {
 
 						<a
 							href="/resume.pdf"
+							target="_blank"
+							rel="noreferrer"
 							className="w-full rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition duration-300 hover:scale-105 hover:border-cyan-400/40 hover:bg-white/10 sm:w-auto"
 						>
 							Download Resume
@@ -63,6 +65,7 @@ function Hero() {
 						<div className="absolute h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl animate-pulse-glow sm:h-80 sm:w-80 md:h-[26rem] md:w-[26rem]" />
 
 						<div className="absolute h-72 w-72 rounded-full border border-cyan-400/20 animate-spin-slow sm:h-80 sm:w-80 md:h-[26rem] md:w-[26rem]" />
+
 						<div className="absolute h-80 w-80 rounded-full border border-dashed border-blue-400/20 animate-spin-reverse sm:h-[22rem] sm:w-[22rem] md:h-[30rem] md:w-[30rem]" />
 
 						<div className="relative h-60 w-60 overflow-hidden rounded-full border border-cyan-400/20 bg-gradient-to-br from-cyan-400/20 via-sky-400/10 to-blue-500/20 shadow-2xl shadow-cyan-500/20 transition duration-500 group-hover:scale-110 group-hover:shadow-cyan-400/40 sm:h-72 sm:w-72 md:h-80 md:w-80 lg:h-96 lg:w-96">

@@ -8,6 +8,7 @@ function Navbar() {
 		{ name: "About", path: "#about" },
 		{ name: "Projects", path: "#projects" },
 		{ name: "Skills", path: "#skills" },
+		{ name: "Resume", path: "/resume.pdf" },
 		{ name: "Contact", path: "#contact" },
 	];
 
@@ -27,6 +28,8 @@ function Navbar() {
 						<a
 							key={link.name}
 							href={link.path}
+							target={link.name === "Resume" ? "_blank" : "_self"}
+							rel="noreferrer"
 							className="group relative text-sm font-medium text-slate-300 transition duration-300 hover:text-cyan-400"
 						>
 							{link.name}
@@ -52,6 +55,10 @@ function Navbar() {
 							<a
 								key={link.name}
 								href={link.path}
+								target={
+									link.name === "Resume" ? "_blank" : "_self"
+								}
+								rel="noreferrer"
 								onClick={() => setIsOpen(false)}
 								className="text-sm font-medium text-slate-300 transition duration-300 hover:text-cyan-400"
 							>

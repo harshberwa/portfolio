@@ -10,9 +10,7 @@ function Contact() {
 					Feel free to reach out for collaborations or opportunities.
 				</p>
 
-				{/* 🔥 Contact Card */}
 				<div className="group relative mx-auto mt-10 rounded-3xl border border-white/10 bg-white/5 p-8 shadow-xl backdrop-blur-md transition duration-500 hover:-translate-y-2 hover:scale-[1.02] hover:border-cyan-400/40 hover:shadow-cyan-500/20">
-					{/* Gradient */}
 					<div
 						className="pointer-events-none absolute inset-0 rounded-3xl opacity-0 transition duration-500 group-hover:opacity-100"
 						style={{
@@ -21,7 +19,6 @@ function Contact() {
 						}}
 					/>
 
-					{/* Shine */}
 					<div className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl">
 						<span className="absolute -left-20 top-0 h-full w-20 rotate-12 bg-white/10 opacity-0 blur-xl transition duration-700 group-hover:left-[120%] group-hover:opacity-100" />
 					</div>
@@ -30,7 +27,7 @@ function Contact() {
 						<p className="text-lg text-slate-300">
 							📧 Email:{" "}
 							<a
-								href="mailto:youremail@gmail.com"
+								href="mailto:harshberwa2004@gmail.com"
 								className="text-cyan-400 hover:underline"
 							>
 								harshberwa2004@gmail.com
@@ -41,6 +38,8 @@ function Contact() {
 							💼 LinkedIn:{" "}
 							<a
 								href="https://www.linkedin.com/in/harsh-berwa"
+								target="_blank"
+								rel="noreferrer"
 								className="text-cyan-400 hover:underline"
 							>
 								https://www.linkedin.com/in/harsh-berwa
@@ -51,11 +50,22 @@ function Contact() {
 							💻 GitHub:{" "}
 							<a
 								href="https://github.com/harshberwa"
+								target="_blank"
+								rel="noreferrer"
 								className="text-cyan-400 hover:underline"
 							>
 								github.com/harshberwa
 							</a>
 						</p>
+
+						<a
+							href="/resume.pdf"
+							target="_blank"
+							rel="noreferrer"
+							className="inline-block rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition duration-300 hover:scale-105 hover:bg-cyan-300"
+						>
+							Download Resume
+						</a>
 					</div>
 				</div>
 			</div>

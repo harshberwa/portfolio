@@ -53,7 +53,7 @@ const projects = [
 		description:
 			"A modern personal portfolio website built with React and Tailwind CSS to showcase projects, skills, and contact information in a professional way.",
 		techStack: ["React", "Tailwind CSS"],
-		liveLink: "",
+		liveLink: "https://portfolio-mu-nine-69.vercel.app/",
 		githubLink: "https://github.com/harshberwa/portfolio",
 	},
 ];

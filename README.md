@@ -1,16 +1,63 @@
-# React + Vite
+# 🌐 Harsh Berwa Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live: https://portfolio-mu-nine-69.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👨‍💻 About This Project
 
-## React Compiler
+This is my personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The portfolio highlights my work in MERN stack development, including real-world applications, clean UI design, and responsive layouts.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Modern and responsive UI
+- Smooth animations and hover effects
+- Projects showcase with Live & GitHub links
+- Resume download functionality
+- Contact section with email, LinkedIn, and GitHub
+- Clean and professional design
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite
+
+---
+
+## 📁 Sections Included
+
+- Home (Hero section)
+- About Me
+- Projects
+- Skills
+- Contact
+
+---
+
+## 📄 Resume
+
+You can download my resume directly from the portfolio.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here after deployment)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
+npm run dev

@@ -48,12 +48,6 @@ You can download my resume directly from the portfolio.
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here after deployment)
-
----
-
 ## ⚙️ Installation
 
 ```bash

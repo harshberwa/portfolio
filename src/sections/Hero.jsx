@@ -79,7 +79,7 @@ function Hero() {
 							<div className="absolute inset-3 flex items-center justify-center rounded-full border border-white/10 bg-slate-900/80 p-4 text-center backdrop-blur-md transition duration-500 group-hover:scale-105 group-hover:bg-slate-900/90 sm:inset-4 sm:p-6">
 								<div className="animate-inner-float">
 									<p className="text-base font-semibold text-white sm:text-lg md:text-xl">
-										MERN Stack
+										MERN Stack Developer
 									</p>
 									<p className="mt-2 text-xs leading-6 text-slate-300 sm:text-sm">
 										React • Node.js • Express • MongoDB

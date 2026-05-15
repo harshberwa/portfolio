@@ -14,7 +14,12 @@ function Skills() {
 		"MERN Stack",
 		"Bootstrap",
 		"HTML & CSS",
+		"bcrypt",
 		"Postman API Testing",
+		"Resend Email API",
+		"Vercel Deployment",
+		"Render Deployment",
+		"MongoDB Atlas",
 	];
 
 	return (

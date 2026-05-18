@@ -47,7 +47,7 @@ function Hero() {
 						</a>
 
 						<a
-							href="/resume.pdf"
+							href="/Harsh_Berwa_MERN_Stack_Resume.pdf"
 							target="_blank"
 							rel="noreferrer"
 							className="w-full rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition duration-300 hover:scale-105 hover:border-cyan-400/40 hover:bg-white/10 sm:w-auto"
